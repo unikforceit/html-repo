@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            max-width: 60%;
+            margin: 0 auto;
+            background-color: #ccc;
+            padding: 50px;
+        }
+        input, select{
+            height: 50px;
+            border-radius: 8px;
+            padding: 10px;
+            display: block;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+        button{
+            background-color: chartreuse;
+            color: white;
+            padding: 8px 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <form action="" method="">
+                <label for="firstname">Your name</label>
+                <input type="text" placeholder="Your Name" name="firstname">
+                <input type="number" placeholder="Your Number">
+                <input type="email" placeholder="Your Mail">
+                <input type="password" placeholder="Your Password">
+                <p>Date of Birth</p>
+                <select>
+                    <option>Select Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <select>
+                    <option>Select Month</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <select>
+                    <option>Select Year</option>
+                    <option>1995</option>
+                    <option>2021</option>
+                </select>
+                <p>Select Gender</p>
+                Male<input type="radio" name="female" value="female">
+                Female<input type="radio" name="female" value="female">
+                <p>Select Hobby</p>
+                Football<input type="checkbox" name="football" value="football">
+                Cricket<input type="checkbox" name="cricket" value="cricket">
+
+                <button type="submit">Submit Now</button>
+        </form> 
+    </div>
+</body>
+</html>
